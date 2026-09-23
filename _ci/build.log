@@ -116,10 +116,10 @@ Build settings from command line:
 { platform:iOS Simulator, id:C7C37F38-AECA-4FC8-B383-F038DCD1588E, OS:17.4, name:iPad mini (6th generation) }
 { platform:iOS Simulator, id:DA1F2196-DA29-4D5E-8BA8-9978EB2033E6, OS:17.5, name:iPad mini (6th generation) }
 { platform:iOS Simulator, id:DA1F2196-DA29-4D5E-8BA8-9978EB2033E6, OS:17.5, name:iPad mini (6th generation) }
-{ platform:iOS Simulator, id:22D59071-888F-4823-84F9-098C85B89A99, OS:18.1, name:iPad mini (6th generation) }
-{ platform:iOS Simulator, id:22D59071-888F-4823-84F9-098C85B89A99, OS:18.1, name:iPad mini (6th generation) }
-{ platform:iOS Simulator, id:2A0BFF43-3ED2-43FB-B055-1D871E43571A, OS:18.2, name:iPad mini (6th generation) }
-{ platform:iOS Simulator, id:2A0BFF43-3ED2-43FB-B055-1D871E43571A, OS:18.2, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, id:0F7A37F2-79FD-4991-89E7-432414C4FF38, OS:18.1, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, id:0F7A37F2-79FD-4991-89E7-432414C4FF38, OS:18.1, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, id:3E353E50-578F-4D87-8817-80FF198FC707, OS:18.2, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, id:3E353E50-578F-4D87-8817-80FF198FC707, OS:18.2, name:iPad mini (6th generation) }
 { platform:iOS Simulator, id:951E7119-0D57-4405-BC5D-111B9C0B4C97, OS:18.1, name:iPad mini (A17 Pro) }
 { platform:iOS Simulator, id:951E7119-0D57-4405-BC5D-111B9C0B4C97, OS:18.1, name:iPad mini (A17 Pro) }
 { platform:iOS Simulator, id:0F36BEB5-08B4-447F-A9D5-1DE57F2AA740, OS:18.2, name:iPad mini (A17 Pro) }
@@ -132,10 +132,10 @@ Build settings from command line:
 { platform:iOS Simulator, id:30F33610-4843-4C04-99B0-734F24ADAB6B, OS:17.4, name:iPhone 15 }
 { platform:iOS Simulator, id:CC86AE0C-952D-43BA-B4CA-7A9A56FB3E00, OS:17.5, name:iPhone 15 }
 { platform:iOS Simulator, id:CC86AE0C-952D-43BA-B4CA-7A9A56FB3E00, OS:17.5, name:iPhone 15 }
-{ platform:iOS Simulator, id:449C55C4-5D0B-4B4C-BA85-7FD857C45425, OS:18.1, name:iPhone 15 }
-{ platform:iOS Simulator, id:449C55C4-5D0B-4B4C-BA85-7FD857C45425, OS:18.1, name:iPhone 15 }
-{ platform:iOS Simulator, id:8833EA2B-E94A-45B4-8933-B6D2BD03B62D, OS:18.2, name:iPhone 15 }
-{ platform:iOS Simulator, id:8833EA2B-E94A-45B4-8933-B6D2BD03B62D, OS:18.2, name:iPhone 15 }
+{ platform:iOS Simulator, id:0102F6E2-3A89-4FAA-941D-80CF64FC174F, OS:18.1, name:iPhone 15 }
+{ platform:iOS Simulator, id:0102F6E2-3A89-4FAA-941D-80CF64FC174F, OS:18.1, name:iPhone 15 }
+{ platform:iOS Simulator, id:DF56B17C-DBA4-4F1F-AB3D-E09363B3E51D, OS:18.2, name:iPhone 15 }
+{ platform:iOS Simulator, id:DF56B17C-DBA4-4F1F-AB3D-E09363B3E51D, OS:18.2, name:iPhone 15 }
 { platform:iOS Simulator, id:17A8C012-E83F-467F-888A-25C2977491AB, OS:17.0.1, name:iPhone 15 Plus }
 { platform:iOS Simulator, id:17A8C012-E83F-467F-888A-25C2977491AB, OS:17.0.1, name:iPhone 15 Plus }
 { platform:iOS Simulator, id:D4463870-0237-4022-B154-00CCA82A0636, OS:17.2, name:iPhone 15 Plus }
@@ -144,10 +144,10 @@ Build settings from command line:
 { platform:iOS Simulator, id:9E6981FD-68F6-499B-9715-54D0AC6B324E, OS:17.4, name:iPhone 15 Plus }
 { platform:iOS Simulator, id:4AA0BA9A-F857-4E14-B7E2-0886D349E70F, OS:17.5, name:iPhone 15 Plus }
 { platform:iOS Simulator, id:4AA0BA9A-F857-4E14-B7E2-0886D349E70F, OS:17.5, name:iPhone 15 Plus }
-{ platform:iOS Simulator, id:6A93C055-6896-4ECB-B2CF-A9C3E65236A8, OS:18.1, name:iPhone 15 Plus }
-{ platform:iOS Simulator, id:6A93C055-6896-4ECB-B2CF-A9C3E65236A8, OS:18.1, name:iPhone 15 Plus }
-{ platform:iOS Simulator, id:A09D4E63-C5E7-44C4-92BF-0F3746C14718, OS:18.2, name:iPhone 15 Plus }
-{ platform:iOS Simulator, id:A09D4E63-C5E7-44C4-92BF-0F3746C14718, OS:18.2, name:iPhone 15 Plus }
+{ platform:iOS Simulator, id:02E77A50-E02E-4E22-B910-66B76C0E59F7, OS:18.1, name:iPhone 15 Plus }
+{ platform:iOS Simulator, id:02E77A50-E02E-4E22-B910-66B76C0E59F7, OS:18.1, name:iPhone 15 Plus }
+{ platform:iOS Simulator, id:12A0FA46-12E7-4BBF-B290-32D209CB85BE, OS:18.2, name:iPhone 15 Plus }
+{ platform:iOS Simulator, id:12A0FA46-12E7-4BBF-B290-32D209CB85BE, OS:18.2, name:iPhone 15 Plus }
 { platform:iOS Simulator, id:E3BBCD6B-A52D-45EF-B6E0-96D3151F472D, OS:17.0.1, name:iPhone 15 Pro }
 { platform:iOS Simulator, id:E3BBCD6B-A52D-45EF-B6E0-96D3151F472D, OS:17.0.1, name:iPhone 15 Pro }
 { platform:iOS Simulator, id:0C511E31-82CB-4CE3-AF79-548A755737AE, OS:17.2, name:iPhone 15 Pro }
@@ -156,10 +156,10 @@ Build settings from command line:
 { platform:iOS Simulator, id:E63A4C69-8ADF-4037-A5EE-AE47A98E069B, OS:17.4, name:iPhone 15 Pro }
 { platform:iOS Simulator, id:B15C98D2-D2CB-4366-B470-4881BB76708E, OS:17.5, name:iPhone 15 Pro }
 { platform:iOS Simulator, id:B15C98D2-D2CB-4366-B470-4881BB76708E, OS:17.5, name:iPhone 15 Pro }
-{ platform:iOS Simulator, id:9B8D53DC-6B67-478B-8AAE-D36013FB6E4E, OS:18.1, name:iPhone 15 Pro }
-{ platform:iOS Simulator, id:9B8D53DC-6B67-478B-8AAE-D36013FB6E4E, OS:18.1, name:iPhone 15 Pro }
-{ platform:iOS Simulator, id:D3606286-E36E-4727-863D-D000EFD7C744, OS:18.2, name:iPhone 15 Pro }
-{ platform:iOS Simulator, id:D3606286-E36E-4727-863D-D000EFD7C744, OS:18.2, name:iPhone 15 Pro }
+{ platform:iOS Simulator, id:C1F7AC47-16C4-44F5-9240-7A981EF56640, OS:18.1, name:iPhone 15 Pro }
+{ platform:iOS Simulator, id:C1F7AC47-16C4-44F5-9240-7A981EF56640, OS:18.1, name:iPhone 15 Pro }
+{ platform:iOS Simulator, id:EFC29D2D-13A8-4398-8F8A-03047304E56C, OS:18.2, name:iPhone 15 Pro }
+{ platform:iOS Simulator, id:EFC29D2D-13A8-4398-8F8A-03047304E56C, OS:18.2, name:iPhone 15 Pro }
 { platform:iOS Simulator, id:78A14695-FEEB-4A7C-A0FA-91541B02259E, OS:17.0.1, name:iPhone 15 Pro Max }
 { platform:iOS Simulator, id:78A14695-FEEB-4A7C-A0FA-91541B02259E, OS:17.0.1, name:iPhone 15 Pro Max }
 { platform:iOS Simulator, id:753632A6-2C76-413F-80EA-EA5B7C90310B, OS:17.2, name:iPhone 15 Pro Max }
@@ -168,10 +168,10 @@ Build settings from command line:
 { platform:iOS Simulator, id:F2188A35-1A84-46E5-AD89-58890B04C591, OS:17.4, name:iPhone 15 Pro Max }
 { platform:iOS Simulator, id:B67BB802-8F6F-4830-A0C0-81D202D4AE98, OS:17.5, name:iPhone 15 Pro Max }
 { platform:iOS Simulator, id:B67BB802-8F6F-4830-A0C0-81D202D4AE98, OS:17.5, name:iPhone 15 Pro Max }
-{ platform:iOS Simulator, id:4182696D-3414-4733-931F-C4A027CC424C, OS:18.1, name:iPhone 15 Pro Max }
-{ platform:iOS Simulator, id:4182696D-3414-4733-931F-C4A027CC424C, OS:18.1, name:iPhone 15 Pro Max }
-{ platform:iOS Simulator, id:08C4276B-335D-477F-8143-C6D994DBBA42, OS:18.2, name:iPhone 15 Pro Max }
-{ platform:iOS Simulator, id:08C4276B-335D-477F-8143-C6D994DBBA42, OS:18.2, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, id:D03810C0-5E5D-4F19-B4F8-EF8E25977713, OS:18.1, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, id:D03810C0-5E5D-4F19-B4F8-EF8E25977713, OS:18.1, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, id:8D6BAD4A-5868-42AB-975F-82FDA5A66F55, OS:18.2, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, id:8D6BAD4A-5868-42AB-975F-82FDA5A66F55, OS:18.2, name:iPhone 15 Pro Max }
 { platform:iOS Simulator, id:A5B144E6-A071-4106-B457-76AA34C952DD, OS:18.1, name:iPhone 16 }
 { platform:iOS Simulator, id:A5B144E6-A071-4106-B457-76AA34C952DD, OS:18.1, name:iPhone 16 }
 { platform:iOS Simulator, id:EDC4F281-97FB-4004-B8FA-3ED2BD36749C, OS:18.2, name:iPhone 16 }
@@ -220,27 +220,27 @@ ExecuteExternalTool /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/X
 
 ExecuteExternalTool /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
 
-Build description signature: 3b2eae5b105b2603e81e03dde99c06cf
-Build description path: /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/XCBuildData/3b2eae5b105b2603e81e03dde99c06cf.xcbuilddata
-CreateBuildDirectory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products
-    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer/VideoSniffer.xcodeproj
-    builtin-create-build-directory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products
-
+Build description signature: f1d249460e92a443a3f2cede15965c00
+Build description path: /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/XCBuildData/f1d249460e92a443a3f2cede15965c00.xcbuilddata
 ClangStatCache /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/SDKStatCaches.noindex/iphoneos17.5-21F77-f0fa7969d082b13145125136a829df3a.sdkstatcache
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer/VideoSniffer.xcodeproj
     /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk -o /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/SDKStatCaches.noindex/iphoneos17.5-21F77-f0fa7969d082b13145125136a829df3a.sdkstatcache
+
+CreateBuildDirectory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products
+    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer/VideoSniffer.xcodeproj
+    builtin-create-build-directory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products
 
 CreateBuildDirectory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer/VideoSniffer.xcodeproj
     builtin-create-build-directory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex
 
-CreateBuildDirectory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos
-    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer/VideoSniffer.xcodeproj
-    builtin-create-build-directory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos
-
 CreateBuildDirectory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/EagerLinkingTBDs/Release-iphoneos
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer/VideoSniffer.xcodeproj
     builtin-create-build-directory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/EagerLinkingTBDs/Release-iphoneos
+
+CreateBuildDirectory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos
+    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer/VideoSniffer.xcodeproj
+    builtin-create-build-directory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos
 
 MkDir /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -254,13 +254,13 @@ MkDir /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/P
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     /bin/mkdir -p /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.app
 
-WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/all-product-headers.yaml (in target 'VideoSnifferExtension' from project 'VideoSniffer')
-    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
-    write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/all-product-headers.yaml
-
 WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/VideoSnifferExtension.hmap (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/VideoSnifferExtension.hmap
+
+WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/all-product-headers.yaml (in target 'VideoSnifferExtension' from project 'VideoSniffer')
+    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
+    write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/all-product-headers.yaml
 
 WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/VideoSnifferExtension-project-headers.hmap (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -282,17 +282,13 @@ WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/VideoSnifferExtension-all-non-framework-target-headers.hmap
 
-ProcessInfoPlistFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/Info.plist /Users/runner/work/safari-video-sniffer/safari-video-sniffer/extension-ios/Info.plist (in target 'VideoSnifferExtension' from project 'VideoSniffer')
+WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension_const_extract_protocols.json (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
-    builtin-infoPlistUtility /Users/runner/work/safari-video-sniffer/safari-video-sniffer/extension-ios/Info.plist -producttype com.apple.product-type.app-extension -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/Info.plist
+    write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension_const_extract_protocols.json
 
 WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension.LinkFileList (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension.LinkFileList
-
-WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension_const_extract_protocols.json (in target 'VideoSnifferExtension' from project 'VideoSniffer')
-    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
-    write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension_const_extract_protocols.json
 
 WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension.SwiftFileList (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -301,6 +297,10 @@ WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/
 WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension-OutputFileMap.json (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension-OutputFileMap.json
+
+ProcessInfoPlistFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/Info.plist /Users/runner/work/safari-video-sniffer/safari-video-sniffer/extension-ios/Info.plist (in target 'VideoSnifferExtension' from project 'VideoSniffer')
+    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
+    builtin-infoPlistUtility /Users/runner/work/safari-video-sniffer/safari-video-sniffer/extension-ios/Info.plist -producttype com.apple.product-type.app-extension -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/Info.plist
 
 CpResource /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/popup /Users/runner/work/safari-video-sniffer/safari-video-sniffer/extension/popup (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -396,13 +396,13 @@ WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/VideoSniffer-all-non-framework-target-headers.hmap
 
-WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.SwiftFileList (in target 'VideoSniffer' from project 'VideoSniffer')
-    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
-    write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.SwiftFileList
-
 WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer_const_extract_protocols.json (in target 'VideoSniffer' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.SwiftFileList (in target 'VideoSniffer' from project 'VideoSniffer')
+    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
+    write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.SwiftFileList
 
 WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer-OutputFileMap.json (in target 'VideoSniffer' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -439,8 +439,8 @@ note: Metadata extraction skipped. No AppIntents.framework dependency found. (in
 AppIntentsSSUTraining (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/Info.plist --temp-dir-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/ssu --bundle-id com.vsniffer.app.extension --product-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex --extracted-metadata-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/Metadata.appintents --archive-ssu-assets
-2026-09-23 05:12:17.998 appintentsnltrainingprocessor[16991:47753] Parsing options for appintentsnltrainingprocessor
-2026-09-23 05:12:18.002 appintentsnltrainingprocessor[16991:47753] No AppShortcuts found - Skipping.
+2026-09-23 05:25:44.717 appintentsnltrainingprocessor[7035:23146] Parsing options for appintentsnltrainingprocessor
+2026-09-23 05:25:44.722 appintentsnltrainingprocessor[7035:23146] No AppShortcuts found - Skipping.
 
 RegisterExecutionPolicyException /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -460,6 +460,10 @@ SwiftDriver\ Compilation\ Requirements VideoSniffer normal arm64 com.apple.xcode
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     builtin-Swift-Compilation-Requirements -- /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name VideoSniffer -O -whole-module-optimization -enforce-exclusivity\=checked @/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.SwiftFileList -sdk /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk -target arm64-apple-ios15.0 -enable-bare-slash-regex -g -module-cache-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos -F /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos -c -num-threads 3 -Xcc -ivfsstatcache -Xcc /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/SDKStatCaches.noindex/iphoneos17.5-21F77-f0fa7969d082b13145125136a829df3a.sdkstatcache -output-file-map /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/VideoSniffer-generated-files.hmap -Xcc -I/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/VideoSniffer-own-target-headers.hmap -Xcc -I/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/VideoSniffer-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/VideoSniffer-project-headers.hmap -Xcc -I/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/include -Xcc -I/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer-Swift.h -working-directory /Users/runner/work/safari-video-sniffer/safari-video-sniffer -no-emit-module-separately-wmo
 
+SwiftMergeGeneratedHeaders /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/DerivedSources/VideoSniffer-Swift.h /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer-Swift.h (in target 'VideoSniffer' from project 'VideoSniffer')
+    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
+    builtin-swiftHeaderTool -arch arm64 /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer-Swift.h -o /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/DerivedSources/VideoSniffer-Swift.h
+
 Copy /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.swiftmodule/arm64-apple-ios.swiftmodule /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.swiftmodule (in target 'VideoSniffer' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.swiftmodule /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.swiftmodule/arm64-apple-ios.swiftmodule
@@ -467,10 +471,6 @@ Copy /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Pr
 Copy /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.swiftmodule/arm64-apple-ios.swiftdoc /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.swiftdoc (in target 'VideoSniffer' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.swiftdoc /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.swiftmodule/arm64-apple-ios.swiftdoc
-
-SwiftMergeGeneratedHeaders /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/DerivedSources/VideoSniffer-Swift.h /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer-Swift.h (in target 'VideoSniffer' from project 'VideoSniffer')
-    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
-    builtin-swiftHeaderTool -arch arm64 /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer-Swift.h -o /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/DerivedSources/VideoSniffer-Swift.h
 
 Copy /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.swiftmodule/arm64-apple-ios.abi.json /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.abi.json (in target 'VideoSniffer' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -517,8 +517,8 @@ GenerateDSYMFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/bu
 AppIntentsSSUTraining (in target 'VideoSniffer' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.app/Info.plist --temp-dir-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/ssu --bundle-id com.vsniffer.app --product-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.app --extracted-metadata-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.app/Metadata.appintents --archive-ssu-assets
-2026-09-23 05:12:22.214 appintentsnltrainingprocessor[17232:48301] Parsing options for appintentsnltrainingprocessor
-2026-09-23 05:12:22.215 appintentsnltrainingprocessor[17232:48301] No AppShortcuts found - Skipping.
+2026-09-23 05:25:49.226 appintentsnltrainingprocessor[7297:23722] Parsing options for appintentsnltrainingprocessor
+2026-09-23 05:25:49.227 appintentsnltrainingprocessor[7297:23722] No AppShortcuts found - Skipping.
 
 RegisterExecutionPolicyException /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.app (in target 'VideoSniffer' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -657,10 +657,10 @@ Build settings from command line:
 { platform:iOS Simulator, id:C7C37F38-AECA-4FC8-B383-F038DCD1588E, OS:17.4, name:iPad mini (6th generation) }
 { platform:iOS Simulator, id:DA1F2196-DA29-4D5E-8BA8-9978EB2033E6, OS:17.5, name:iPad mini (6th generation) }
 { platform:iOS Simulator, id:DA1F2196-DA29-4D5E-8BA8-9978EB2033E6, OS:17.5, name:iPad mini (6th generation) }
-{ platform:iOS Simulator, id:22D59071-888F-4823-84F9-098C85B89A99, OS:18.1, name:iPad mini (6th generation) }
-{ platform:iOS Simulator, id:22D59071-888F-4823-84F9-098C85B89A99, OS:18.1, name:iPad mini (6th generation) }
-{ platform:iOS Simulator, id:2A0BFF43-3ED2-43FB-B055-1D871E43571A, OS:18.2, name:iPad mini (6th generation) }
-{ platform:iOS Simulator, id:2A0BFF43-3ED2-43FB-B055-1D871E43571A, OS:18.2, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, id:0F7A37F2-79FD-4991-89E7-432414C4FF38, OS:18.1, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, id:0F7A37F2-79FD-4991-89E7-432414C4FF38, OS:18.1, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, id:3E353E50-578F-4D87-8817-80FF198FC707, OS:18.2, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, id:3E353E50-578F-4D87-8817-80FF198FC707, OS:18.2, name:iPad mini (6th generation) }
 { platform:iOS Simulator, id:951E7119-0D57-4405-BC5D-111B9C0B4C97, OS:18.1, name:iPad mini (A17 Pro) }
 { platform:iOS Simulator, id:951E7119-0D57-4405-BC5D-111B9C0B4C97, OS:18.1, name:iPad mini (A17 Pro) }
 { platform:iOS Simulator, id:0F36BEB5-08B4-447F-A9D5-1DE57F2AA740, OS:18.2, name:iPad mini (A17 Pro) }
@@ -673,10 +673,10 @@ Build settings from command line:
 { platform:iOS Simulator, id:30F33610-4843-4C04-99B0-734F24ADAB6B, OS:17.4, name:iPhone 15 }
 { platform:iOS Simulator, id:CC86AE0C-952D-43BA-B4CA-7A9A56FB3E00, OS:17.5, name:iPhone 15 }
 { platform:iOS Simulator, id:CC86AE0C-952D-43BA-B4CA-7A9A56FB3E00, OS:17.5, name:iPhone 15 }
-{ platform:iOS Simulator, id:449C55C4-5D0B-4B4C-BA85-7FD857C45425, OS:18.1, name:iPhone 15 }
-{ platform:iOS Simulator, id:449C55C4-5D0B-4B4C-BA85-7FD857C45425, OS:18.1, name:iPhone 15 }
-{ platform:iOS Simulator, id:8833EA2B-E94A-45B4-8933-B6D2BD03B62D, OS:18.2, name:iPhone 15 }
-{ platform:iOS Simulator, id:8833EA2B-E94A-45B4-8933-B6D2BD03B62D, OS:18.2, name:iPhone 15 }
+{ platform:iOS Simulator, id:0102F6E2-3A89-4FAA-941D-80CF64FC174F, OS:18.1, name:iPhone 15 }
+{ platform:iOS Simulator, id:0102F6E2-3A89-4FAA-941D-80CF64FC174F, OS:18.1, name:iPhone 15 }
+{ platform:iOS Simulator, id:DF56B17C-DBA4-4F1F-AB3D-E09363B3E51D, OS:18.2, name:iPhone 15 }
+{ platform:iOS Simulator, id:DF56B17C-DBA4-4F1F-AB3D-E09363B3E51D, OS:18.2, name:iPhone 15 }
 { platform:iOS Simulator, id:17A8C012-E83F-467F-888A-25C2977491AB, OS:17.0.1, name:iPhone 15 Plus }
 { platform:iOS Simulator, id:17A8C012-E83F-467F-888A-25C2977491AB, OS:17.0.1, name:iPhone 15 Plus }
 { platform:iOS Simulator, id:D4463870-0237-4022-B154-00CCA82A0636, OS:17.2, name:iPhone 15 Plus }
@@ -685,10 +685,10 @@ Build settings from command line:
 { platform:iOS Simulator, id:9E6981FD-68F6-499B-9715-54D0AC6B324E, OS:17.4, name:iPhone 15 Plus }
 { platform:iOS Simulator, id:4AA0BA9A-F857-4E14-B7E2-0886D349E70F, OS:17.5, name:iPhone 15 Plus }
 { platform:iOS Simulator, id:4AA0BA9A-F857-4E14-B7E2-0886D349E70F, OS:17.5, name:iPhone 15 Plus }
-{ platform:iOS Simulator, id:6A93C055-6896-4ECB-B2CF-A9C3E65236A8, OS:18.1, name:iPhone 15 Plus }
-{ platform:iOS Simulator, id:6A93C055-6896-4ECB-B2CF-A9C3E65236A8, OS:18.1, name:iPhone 15 Plus }
-{ platform:iOS Simulator, id:A09D4E63-C5E7-44C4-92BF-0F3746C14718, OS:18.2, name:iPhone 15 Plus }
-{ platform:iOS Simulator, id:A09D4E63-C5E7-44C4-92BF-0F3746C14718, OS:18.2, name:iPhone 15 Plus }
+{ platform:iOS Simulator, id:02E77A50-E02E-4E22-B910-66B76C0E59F7, OS:18.1, name:iPhone 15 Plus }
+{ platform:iOS Simulator, id:02E77A50-E02E-4E22-B910-66B76C0E59F7, OS:18.1, name:iPhone 15 Plus }
+{ platform:iOS Simulator, id:12A0FA46-12E7-4BBF-B290-32D209CB85BE, OS:18.2, name:iPhone 15 Plus }
+{ platform:iOS Simulator, id:12A0FA46-12E7-4BBF-B290-32D209CB85BE, OS:18.2, name:iPhone 15 Plus }
 { platform:iOS Simulator, id:E3BBCD6B-A52D-45EF-B6E0-96D3151F472D, OS:17.0.1, name:iPhone 15 Pro }
 { platform:iOS Simulator, id:E3BBCD6B-A52D-45EF-B6E0-96D3151F472D, OS:17.0.1, name:iPhone 15 Pro }
 { platform:iOS Simulator, id:0C511E31-82CB-4CE3-AF79-548A755737AE, OS:17.2, name:iPhone 15 Pro }
@@ -697,10 +697,10 @@ Build settings from command line:
 { platform:iOS Simulator, id:E63A4C69-8ADF-4037-A5EE-AE47A98E069B, OS:17.4, name:iPhone 15 Pro }
 { platform:iOS Simulator, id:B15C98D2-D2CB-4366-B470-4881BB76708E, OS:17.5, name:iPhone 15 Pro }
 { platform:iOS Simulator, id:B15C98D2-D2CB-4366-B470-4881BB76708E, OS:17.5, name:iPhone 15 Pro }
-{ platform:iOS Simulator, id:9B8D53DC-6B67-478B-8AAE-D36013FB6E4E, OS:18.1, name:iPhone 15 Pro }
-{ platform:iOS Simulator, id:9B8D53DC-6B67-478B-8AAE-D36013FB6E4E, OS:18.1, name:iPhone 15 Pro }
-{ platform:iOS Simulator, id:D3606286-E36E-4727-863D-D000EFD7C744, OS:18.2, name:iPhone 15 Pro }
-{ platform:iOS Simulator, id:D3606286-E36E-4727-863D-D000EFD7C744, OS:18.2, name:iPhone 15 Pro }
+{ platform:iOS Simulator, id:C1F7AC47-16C4-44F5-9240-7A981EF56640, OS:18.1, name:iPhone 15 Pro }
+{ platform:iOS Simulator, id:C1F7AC47-16C4-44F5-9240-7A981EF56640, OS:18.1, name:iPhone 15 Pro }
+{ platform:iOS Simulator, id:EFC29D2D-13A8-4398-8F8A-03047304E56C, OS:18.2, name:iPhone 15 Pro }
+{ platform:iOS Simulator, id:EFC29D2D-13A8-4398-8F8A-03047304E56C, OS:18.2, name:iPhone 15 Pro }
 { platform:iOS Simulator, id:78A14695-FEEB-4A7C-A0FA-91541B02259E, OS:17.0.1, name:iPhone 15 Pro Max }
 { platform:iOS Simulator, id:78A14695-FEEB-4A7C-A0FA-91541B02259E, OS:17.0.1, name:iPhone 15 Pro Max }
 { platform:iOS Simulator, id:753632A6-2C76-413F-80EA-EA5B7C90310B, OS:17.2, name:iPhone 15 Pro Max }
@@ -709,10 +709,10 @@ Build settings from command line:
 { platform:iOS Simulator, id:F2188A35-1A84-46E5-AD89-58890B04C591, OS:17.4, name:iPhone 15 Pro Max }
 { platform:iOS Simulator, id:B67BB802-8F6F-4830-A0C0-81D202D4AE98, OS:17.5, name:iPhone 15 Pro Max }
 { platform:iOS Simulator, id:B67BB802-8F6F-4830-A0C0-81D202D4AE98, OS:17.5, name:iPhone 15 Pro Max }
-{ platform:iOS Simulator, id:4182696D-3414-4733-931F-C4A027CC424C, OS:18.1, name:iPhone 15 Pro Max }
-{ platform:iOS Simulator, id:4182696D-3414-4733-931F-C4A027CC424C, OS:18.1, name:iPhone 15 Pro Max }
-{ platform:iOS Simulator, id:08C4276B-335D-477F-8143-C6D994DBBA42, OS:18.2, name:iPhone 15 Pro Max }
-{ platform:iOS Simulator, id:08C4276B-335D-477F-8143-C6D994DBBA42, OS:18.2, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, id:D03810C0-5E5D-4F19-B4F8-EF8E25977713, OS:18.1, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, id:D03810C0-5E5D-4F19-B4F8-EF8E25977713, OS:18.1, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, id:8D6BAD4A-5868-42AB-975F-82FDA5A66F55, OS:18.2, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, id:8D6BAD4A-5868-42AB-975F-82FDA5A66F55, OS:18.2, name:iPhone 15 Pro Max }
 { platform:iOS Simulator, id:A5B144E6-A071-4106-B457-76AA34C952DD, OS:18.1, name:iPhone 16 }
 { platform:iOS Simulator, id:A5B144E6-A071-4106-B457-76AA34C952DD, OS:18.1, name:iPhone 16 }
 { platform:iOS Simulator, id:EDC4F281-97FB-4004-B8FA-3ED2BD36749C, OS:18.2, name:iPhone 16 }
@@ -761,27 +761,27 @@ ExecuteExternalTool /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/X
 
 ExecuteExternalTool /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
 
-Build description signature: 3b2eae5b105b2603e81e03dde99c06cf
-Build description path: /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/XCBuildData/3b2eae5b105b2603e81e03dde99c06cf.xcbuilddata
-CreateBuildDirectory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products
-    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer/VideoSniffer.xcodeproj
-    builtin-create-build-directory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products
-
+Build description signature: f1d249460e92a443a3f2cede15965c00
+Build description path: /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/XCBuildData/f1d249460e92a443a3f2cede15965c00.xcbuilddata
 ClangStatCache /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/SDKStatCaches.noindex/iphoneos17.5-21F77-f0fa7969d082b13145125136a829df3a.sdkstatcache
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer/VideoSniffer.xcodeproj
     /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk -o /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/SDKStatCaches.noindex/iphoneos17.5-21F77-f0fa7969d082b13145125136a829df3a.sdkstatcache
+
+CreateBuildDirectory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products
+    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer/VideoSniffer.xcodeproj
+    builtin-create-build-directory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products
 
 CreateBuildDirectory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer/VideoSniffer.xcodeproj
     builtin-create-build-directory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex
 
-CreateBuildDirectory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos
-    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer/VideoSniffer.xcodeproj
-    builtin-create-build-directory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos
-
 CreateBuildDirectory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/EagerLinkingTBDs/Release-iphoneos
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer/VideoSniffer.xcodeproj
     builtin-create-build-directory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/EagerLinkingTBDs/Release-iphoneos
+
+CreateBuildDirectory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos
+    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer/VideoSniffer.xcodeproj
+    builtin-create-build-directory /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos
 
 MkDir /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -795,13 +795,13 @@ MkDir /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/P
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     /bin/mkdir -p /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.app
 
-WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/all-product-headers.yaml (in target 'VideoSnifferExtension' from project 'VideoSniffer')
-    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
-    write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/all-product-headers.yaml
-
 WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/VideoSnifferExtension.hmap (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/VideoSnifferExtension.hmap
+
+WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/all-product-headers.yaml (in target 'VideoSnifferExtension' from project 'VideoSniffer')
+    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
+    write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/all-product-headers.yaml
 
 WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/VideoSnifferExtension-project-headers.hmap (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -823,17 +823,13 @@ WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/VideoSnifferExtension-all-non-framework-target-headers.hmap
 
-ProcessInfoPlistFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/Info.plist /Users/runner/work/safari-video-sniffer/safari-video-sniffer/extension-ios/Info.plist (in target 'VideoSnifferExtension' from project 'VideoSniffer')
+WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension_const_extract_protocols.json (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
-    builtin-infoPlistUtility /Users/runner/work/safari-video-sniffer/safari-video-sniffer/extension-ios/Info.plist -producttype com.apple.product-type.app-extension -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/Info.plist
+    write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension_const_extract_protocols.json
 
 WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension.LinkFileList (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension.LinkFileList
-
-WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension_const_extract_protocols.json (in target 'VideoSnifferExtension' from project 'VideoSniffer')
-    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
-    write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension_const_extract_protocols.json
 
 WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension.SwiftFileList (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -842,6 +838,10 @@ WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/
 WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension-OutputFileMap.json (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/Objects-normal/arm64/VideoSnifferExtension-OutputFileMap.json
+
+ProcessInfoPlistFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/Info.plist /Users/runner/work/safari-video-sniffer/safari-video-sniffer/extension-ios/Info.plist (in target 'VideoSnifferExtension' from project 'VideoSniffer')
+    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
+    builtin-infoPlistUtility /Users/runner/work/safari-video-sniffer/safari-video-sniffer/extension-ios/Info.plist -producttype com.apple.product-type.app-extension -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/Info.plist
 
 CpResource /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/popup /Users/runner/work/safari-video-sniffer/safari-video-sniffer/extension/popup (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -937,13 +937,13 @@ WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/VideoSniffer-all-non-framework-target-headers.hmap
 
-WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.SwiftFileList (in target 'VideoSniffer' from project 'VideoSniffer')
-    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
-    write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.SwiftFileList
-
 WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer_const_extract_protocols.json (in target 'VideoSniffer' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.SwiftFileList (in target 'VideoSniffer' from project 'VideoSniffer')
+    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
+    write-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.SwiftFileList
 
 WriteAuxiliaryFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer-OutputFileMap.json (in target 'VideoSniffer' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -980,8 +980,8 @@ note: Metadata extraction skipped. No AppIntents.framework dependency found. (in
 AppIntentsSSUTraining (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/Info.plist --temp-dir-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSnifferExtension.build/ssu --bundle-id com.vsniffer.app.extension --product-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex --extracted-metadata-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/Metadata.appintents --archive-ssu-assets
-2026-09-23 05:12:17.998 appintentsnltrainingprocessor[16991:47753] Parsing options for appintentsnltrainingprocessor
-2026-09-23 05:12:18.002 appintentsnltrainingprocessor[16991:47753] No AppShortcuts found - Skipping.
+2026-09-23 05:25:44.717 appintentsnltrainingprocessor[7035:23146] Parsing options for appintentsnltrainingprocessor
+2026-09-23 05:25:44.722 appintentsnltrainingprocessor[7035:23146] No AppShortcuts found - Skipping.
 
 RegisterExecutionPolicyException /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex (in target 'VideoSnifferExtension' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -1001,6 +1001,10 @@ SwiftDriver\ Compilation\ Requirements VideoSniffer normal arm64 com.apple.xcode
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     builtin-Swift-Compilation-Requirements -- /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name VideoSniffer -O -whole-module-optimization -enforce-exclusivity\=checked @/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.SwiftFileList -sdk /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk -target arm64-apple-ios15.0 -enable-bare-slash-regex -g -module-cache-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos -F /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos -c -num-threads 3 -Xcc -ivfsstatcache -Xcc /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/SDKStatCaches.noindex/iphoneos17.5-21F77-f0fa7969d082b13145125136a829df3a.sdkstatcache -output-file-map /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/VideoSniffer-generated-files.hmap -Xcc -I/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/VideoSniffer-own-target-headers.hmap -Xcc -I/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/VideoSniffer-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/VideoSniffer-project-headers.hmap -Xcc -I/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/include -Xcc -I/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer-Swift.h -working-directory /Users/runner/work/safari-video-sniffer/safari-video-sniffer -no-emit-module-separately-wmo
 
+SwiftMergeGeneratedHeaders /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/DerivedSources/VideoSniffer-Swift.h /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer-Swift.h (in target 'VideoSniffer' from project 'VideoSniffer')
+    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
+    builtin-swiftHeaderTool -arch arm64 /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer-Swift.h -o /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/DerivedSources/VideoSniffer-Swift.h
+
 Copy /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.swiftmodule/arm64-apple-ios.swiftmodule /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.swiftmodule (in target 'VideoSniffer' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.swiftmodule /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.swiftmodule/arm64-apple-ios.swiftmodule
@@ -1008,10 +1012,6 @@ Copy /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Pr
 Copy /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.swiftmodule/arm64-apple-ios.swiftdoc /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.swiftdoc (in target 'VideoSniffer' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.swiftdoc /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.swiftmodule/arm64-apple-ios.swiftdoc
-
-SwiftMergeGeneratedHeaders /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/DerivedSources/VideoSniffer-Swift.h /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer-Swift.h (in target 'VideoSniffer' from project 'VideoSniffer')
-    cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
-    builtin-swiftHeaderTool -arch arm64 /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer-Swift.h -o /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/DerivedSources/VideoSniffer-Swift.h
 
 Copy /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.swiftmodule/arm64-apple-ios.abi.json /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/Objects-normal/arm64/VideoSniffer.abi.json (in target 'VideoSniffer' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
@@ -1058,8 +1058,8 @@ GenerateDSYMFile /Users/runner/work/safari-video-sniffer/safari-video-sniffer/bu
 AppIntentsSSUTraining (in target 'VideoSniffer' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
     /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.app/Info.plist --temp-dir-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Intermediates.noindex/VideoSniffer.build/Release-iphoneos/VideoSniffer.build/ssu --bundle-id com.vsniffer.app --product-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.app --extracted-metadata-path /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.app/Metadata.appintents --archive-ssu-assets
-2026-09-23 05:12:22.214 appintentsnltrainingprocessor[17232:48301] Parsing options for appintentsnltrainingprocessor
-2026-09-23 05:12:22.215 appintentsnltrainingprocessor[17232:48301] No AppShortcuts found - Skipping.
+2026-09-23 05:25:49.226 appintentsnltrainingprocessor[7297:23722] Parsing options for appintentsnltrainingprocessor
+2026-09-23 05:25:49.227 appintentsnltrainingprocessor[7297:23722] No AppShortcuts found - Skipping.
 
 RegisterExecutionPolicyException /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build/Build/Products/Release-iphoneos/VideoSniffer.app (in target 'VideoSniffer' from project 'VideoSniffer')
     cd /Users/runner/work/safari-video-sniffer/safari-video-sniffer
