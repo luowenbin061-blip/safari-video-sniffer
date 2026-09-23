@@ -1,1 +1,15 @@
-no products
+build/Build/Products
+build/Build/Products/Release-iphoneos
+build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex
+build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/popup
+build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex/content
+build/Build/Products/Release-iphoneos/VideoSnifferExtension.swiftmodule
+build/Build/Products/Release-iphoneos/VideoSnifferExtension.swiftmodule/Project
+build/Build/Products/Release-iphoneos/VideoSniffer.app
+build/Build/Products/Release-iphoneos/VideoSniffer.app/PlugIns
+build/Build/Products/Release-iphoneos/VideoSniffer.swiftmodule
+build/Build/Products/Release-iphoneos/VideoSniffer.swiftmodule/Project
+build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex.dSYM
+build/Build/Products/Release-iphoneos/VideoSnifferExtension.appex.dSYM/Contents
+build/Build/Products/Release-iphoneos/VideoSniffer.app.dSYM
+build/Build/Products/Release-iphoneos/VideoSniffer.app.dSYM/Contents
