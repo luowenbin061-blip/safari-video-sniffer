@@ -1,0 +1,78 @@
+name: VideoSniffer
+
+options:
+  bundleIdPrefix: com.vsniffer
+  deploymentTarget:
+    iOS: "15.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+settings:
+  base:
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "15.0"
+    ENABLE_BITCODE: "NO"
+    CODE_SIGN_IDENTITY: ""
+    CODE_SIGNING_REQUIRED: "NO"
+    CODE_SIGNING_ALLOWED: "NO"
+
+targets:
+  VideoSniffer:
+    type: application
+    platform: iOS
+    sources:
+      - path: app/App.swift
+      - path: app/ContentView.swift
+    info:
+      path: app/Info.plist
+      properties:
+        CFBundleDisplayName: 视频嗅探
+        CFBundleName: VideoSniffer
+        CFBundleDevelopmentRegion: zh_CN
+        LSRequiresIPhoneOS: true
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    dependencies:
+      - target: VideoSnifferExtension
+        embed: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.vsniffer.app
+        TARGETED_DEVICE_FAMILY: "1,2"
+
+  VideoSnifferExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: extension-ios/SafariWebExtensionHandler.swift
+      # manifest.json 必须是扩展 bundle 的「根」，所以单独当文件加进去；
+      # 两个目录用 folder reference（type: folder），这样 bundle 里会保留
+      # content/ 、popup/ 的子目录结构，manifest 里的相对路径才对得上。
+      - path: extension/manifest.json
+        buildPhase: resources
+      - path: extension/content
+        type: folder
+        buildPhase: resources
+      - path: extension/popup
+        type: folder
+        buildPhase: resources
+    info:
+      path: extension-ios/Info.plist
+      properties:
+        CFBundleDisplayName: 视频嗅探
+        CFBundleName: VideoSnifferExtension
+        CFBundleDevelopmentRegion: zh_CN
+        CFBundlePackageType: "XPC!"
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.Safari.web-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.vsniffer.app.extension
+        TARGETED_DEVICE_FAMILY: "1,2"

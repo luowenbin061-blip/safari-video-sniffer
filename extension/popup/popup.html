@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>视频嗅探</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>视频嗅探</h1>
+    <span class="badge" id="count">—</span>
+  </header>
+
+  <button id="open" class="primary">打开嗅探面板</button>
+  <button id="rescan" class="ghost">重新扫描</button>
+
+  <p class="tip">
+    面板里点链接=复制；<strong>长按链接</strong>可以看到系统的「下载链接文件」。
+    MP4 直链这样就能存下来，M3U8 需要复制到别的工具处理。
+  </p>
+
+  <p class="tip dim" id="status">正在读取当前页面…</p>
+
+  <script src="popup.js"></script>
+</body>
+</html>

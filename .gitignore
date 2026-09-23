@@ -1,0 +1,13 @@
+# 生成物
+build/
+out/
+DerivedData/
+VideoSniffer.xcodeproj/
+VideoSniffer-unsigned.ipa
+
+# Xcode 用户数据
+xcuserdata/
+*.xcuserstate
+
+# 系统
+.DS_Store

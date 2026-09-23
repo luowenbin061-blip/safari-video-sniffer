@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "视频嗅探",
+  "version": "1.0.0",
+  "description": "长按视频即可嗅探并列出页面中的视频地址",
+  "permissions": ["activeTab", "storage", "<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content/sniffer.js"],
+      "css": ["content/sniffer.css"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "browser_action": {
+    "default_title": "视频嗅探",
+    "default_popup": "popup/popup.html"
+  },
+  "web_accessible_resources": ["content/inject.js"]
+}

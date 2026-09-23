@@ -1,0 +1,98 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 14px;
+  width: 264px;
+  background: #16181d;
+  color: #e8edf5;
+  font: 14px/1.5 -apple-system, "PingFang SC", "Helvetica Neue", system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.badge {
+  display: inline-block;
+  min-width: 22px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: #2b3a52;
+  color: #7fb3ff;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  margin: 0 0 8px;
+  padding: 11px 12px;
+  border: 0;
+  border-radius: 9px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+button.primary {
+  background: #2b6cff;
+  color: #ffffff;
+}
+
+button.primary:active {
+  background: #1f57d6;
+}
+
+button.ghost {
+  background: #232833;
+  color: #9fb0c7;
+  font-weight: 500;
+}
+
+button.ghost:active {
+  background: #2c323f;
+}
+
+button[disabled] {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.tip {
+  margin: 10px 0 0;
+  font-size: 12px;
+  line-height: 1.55;
+  color: #8899ad;
+}
+
+.tip strong {
+  color: #c7d3e3;
+  font-weight: 600;
+}
+
+.tip.dim {
+  color: #66748a;
+}

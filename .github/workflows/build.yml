@@ -1,0 +1,106 @@
+name: build-ipa
+
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - '_ci/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: macos-14
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Toolchain info
+        run: |
+          xcodebuild -version
+          swift --version
+
+      - name: Install XcodeGen
+        run: brew install xcodegen || brew upgrade xcodegen
+
+      - name: Generate Xcode project
+        run: xcodegen generate
+
+      - name: Build (unsigned)
+        id: build
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project VideoSniffer.xcodeproj \
+            -scheme VideoSniffer \
+            -sdk iphoneos \
+            -configuration Release \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGN_ENTITLEMENTS="" \
+            build > build.log 2>&1
+          code=$?
+          echo "xcodebuild exit code: $code" | tee -a build.log
+          exit $code
+
+      - name: Package IPA
+        if: steps.build.outcome == 'success'
+        run: |
+          APP_PATH=$(find build/Build/Products/Release-iphoneos -maxdepth 1 -name "*.app" | head -1)
+          echo "found app: $APP_PATH"
+          if [ -z "$APP_PATH" ]; then
+            echo "没有找到 .app，打包中止" | tee -a build.log
+            exit 1
+          fi
+          rm -rf out
+          mkdir -p out/Payload
+          cp -R "$APP_PATH" out/Payload/
+          echo "--- Payload 内容 ---"
+          find out/Payload -maxdepth 3 | head -60
+          echo "--- appex 检查 ---"
+          find out/Payload -name "*.appex" -print
+          cd out && zip -qry ../VideoSniffer-unsigned.ipa Payload
+          ls -la ../VideoSniffer-unsigned.ipa
+
+      - name: Publish build log back to repo
+        if: always()
+        run: |
+          mkdir -p _ci
+          if [ -f build.log ]; then
+            { head -c 120000 build.log; echo; echo "=== (中间省略) ==="; echo; tail -c 120000 build.log; } > _ci/build.log
+          else
+            echo "no build.log generated" > _ci/build.log
+          fi
+          find build/Build/Products -maxdepth 3 -type d > _ci/products.txt 2>/dev/null || echo "no products" > _ci/products.txt
+          git config user.name "ci-bot"
+          git config user.email "ci-bot@users.noreply.github.com"
+          git add -f _ci/
+          git commit -m "ci: build log for run ${{ github.run_number }} [skip ci]" || echo "nothing to commit"
+          git push || echo "push failed"
+
+      - name: Upload artifact
+        if: steps.build.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: VideoSniffer-ipa
+          path: VideoSniffer-unsigned.ipa
+          if-no-files-found: error
+
+      - name: Create release
+        if: steps.build.outcome == 'success'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.${{ github.run_number }}
+          name: 视频嗅探 v1.0.${{ github.run_number }}
+          body: |
+            未签名 IPA。用 TrollStore 直接安装，或用自签工具（轻松签 / AltStore）签名后安装。
+            装完记得去 设置 → Safari → 扩展 里打开开关。
+          files: VideoSniffer-unsigned.ipa
+          draft: false
