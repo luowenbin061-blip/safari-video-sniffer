@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         视频嗅探（长按视频看地址）
 // @namespace    safari-video-sniffer
-// @version      1.1.0
+// @version      1.2.0
 // @description  长按网页里的视频，列出这个页面上真实的视频地址；MP4 直链可以走 iOS 系统菜单直接下载
 // @author       -
 // @match        *://*/*
@@ -239,7 +239,9 @@
     'padding:10px 18px;border-radius:20px;background:rgba(18,20,26,.96);color:#fff;',
     'font:13px/1.4 -apple-system,"PingFang SC",system-ui,sans-serif;white-space:nowrap;',
     'opacity:0;pointer-events:none;transition:opacity .2s}',
-    '.vsn-toast.vsn-on{opacity:1}'
+    '.vsn-toast.vsn-on{opacity:1}',
+    '.vsn-hint{margin-top:5px;font-size:11.5px;line-height:1.4;color:#5f6d80}',
+    '.vsn-hint-dl{color:#5fd68a}'
   ].join('');
 
   function el(tag, cls, text) {
@@ -271,7 +273,7 @@
     head.appendChild(closeBtn);
 
     listEl = el('div', 'vsn-list');
-    var foot = el('div', 'vsn-foot', '点链接复制 · 长按链接走系统「下载链接文件」');
+    var foot = el('div', 'vsn-foot', '点一下复制 · 长按那一行可以下载（MP4 直链）');
 
     panel.appendChild(head);
     panel.appendChild(listEl);
@@ -332,6 +334,18 @@
 
     row.appendChild(row1);
     row.appendChild(row2);
+
+    // 行动提示：让「长按哪一行、下一步干什么」一眼可见
+    var canDownload = (item.kind === 'direct');
+    var hint = el('div', 'vsn-hint' + (canDownload ? ' vsn-hint-dl' : ''));
+    if (canDownload) {
+      hint.textContent = '长按此行 → 选「下载链接文件」';
+    } else if (item.kind === 'hls' || item.kind === 'dash') {
+      hint.textContent = '长按此行 → 拷贝链接（M3U8 要用电脑下载）';
+    } else {
+      hint.textContent = '长按此行 → 拷贝链接';
+    }
+    row.appendChild(hint);
 
     // 点 = 复制（防止误触跳走），长按 = 交给 iOS 系统菜单（含「下载链接文件」）
     row.addEventListener('click', function (ev) {
