@@ -1,0 +1,118 @@
+========================================
+  视频嗅探  Safari 扩展 —— 安装说明
+========================================
+
+版本   v1.0.2
+构建   2026-09-23（GitHub Actions / macos-14 / Xcode 15.4）
+文件   dist\VideoSniffer-unsigned.ipa   （44,636 字节）
+仓库   https://github.com/luowenbin061-blip/safari-video-sniffer
+发布页 https://github.com/luowenbin061-blip/safari-video-sniffer/releases/tag/v1.0.2
+
+注意：发布页在 github.com 域名上，你这边网络可能打不开。
+      用本地这份 dist\VideoSniffer-unsigned.ipa 就行，内容一模一样。
+
+
+----------------------------------------
+一、装到 iPhone 上
+----------------------------------------
+
+1. 把 ipa 传到手机
+   最简单：微信「文件传输助手」→ 电脑上把这个 ipa 发给自己 → 手机微信里
+   点开文件 → 右上角「…」→ 用其他应用打开 / 存储到「文件」
+
+2. 用 TrollStore 安装
+   打开「文件」App，找到 VideoSniffer-unsigned.ipa
+   长按 → 共享 → 选 TrollStore（或者直接打开 TrollStore，从「文件」里选这个 ipa）
+
+   没有 TrollStore 的话：用轻松签 / AltStore / Sideloadly 自签也能装。
+
+3. ★ 装完先把 App 打开一次
+   这一步别跳过 —— iOS 要靠 App 启动时才去注册里面的扩展。
+   打开会看到一个说明页，看完就可以退出了。
+
+4. 开启扩展
+   设置 → Safari 浏览器 → 扩展 → 找到「视频嗅探」→ 打开开关
+
+5. 确认在 Safari 里生效
+   Safari 里点地址栏左边的「AA」→ 管理扩展 → 确认「视频嗅探」是勾上的
+
+
+----------------------------------------
+二、怎么用
+----------------------------------------
+
+  长按视频画面（约半秒）  →  弹出嗅探面板
+  点右下角蓝色圆点        →  也能弹出面板
+  点扩展图标              →  小面板：看数量 / 打开面板 / 重新扫描
+
+  面板里：
+    点某一行        → 复制这个地址
+    长按某一行      → iOS 系统菜单，里面有「下载链接文件」
+
+  MP4 直链：长按链接 → 下载链接文件 → 直接进「文件」App
+
+
+----------------------------------------
+三、能下什么 / 不能下什么
+----------------------------------------
+
+  能下：
+    MP4 / M4V / MOV / WEBM 直链  → 长按链接，用系统菜单下载
+
+  只能复制地址：
+    M3U8 / MPD  → 这是播放列表，要下几百个分片再拼，手机上一个扩展做不到。
+                  复制出来丢到电脑上用 yt-dlp 或 N_m3u8DL-RE
+
+  拿不到：
+    DRM 加密的付费影片  → 密码学挡着，不是工具问题
+    blob: 开头的        → 视频是脚本喂给播放器的。要「先让视频播几秒，
+                          再打开面板，然后重新加载页面」，钩子才抓得到
+
+
+----------------------------------------
+四、已知问题（我没法在本地验证，装机后如果不对告诉我）
+----------------------------------------
+
+  · iOS 15.0 ~ 15.3 之外的版本我没测过。用 MV2 清单就是为了兼容低版本。
+  · 严格 CSP 的网站，页面世界注入会失败，只剩 performance 那条路。
+  · iframe 里的视频：能嗅到，但面板会显示在那个 iframe 的边框里面。
+    如果 iframe 很小，面板也会很小 —— 这种建议直接点右下角圆点。
+  · 长按会接管掉 Safari 原生的视频菜单（画中画等）。
+    不想要的话，把 extension/content/sniffer.js 里 contextmenu 那段
+    的 ev.preventDefault() 去掉，重新编译即可。
+  · ★ 最大的未知：TrollStore 装的未签名 App，iOS 能不能正常把里面的
+    Safari 扩展注册出来。装完如果 Safari 扩展列表里根本找不到「视频嗅探」，
+    就是这一步的问题，直接告诉我。
+
+
+----------------------------------------
+五、改代码后怎么重新编译
+----------------------------------------
+
+  不需要 Mac。改完本机文件后跑：
+
+    python _probe_tmp\push_sniffer.py
+    python _probe_tmp\wait_build.py <commit前10位>
+
+  推送后 GitHub Actions 会在云端 macos runner 上自动编译，
+  产物进 Releases，编译日志在 _ci/build.log。
+
+  工程是 XcodeGen 生成的（project.yml），本地改工程配置改 project.yml，
+  不要手写 .xcodeproj。
+
+
+----------------------------------------
+六、文件结构
+----------------------------------------
+
+  extension/                   扩展本体
+    manifest.json              MV2 清单
+    content/sniffer.js         嗅探 + 长按面板（核心）
+    content/inject.js          注入页面世界的钩子
+    content/sniffer.css        面板样式
+    popup/                     点扩展图标的小面板
+  app/                         宿主 App（iOS 上扩展必须有个 App 载体）
+  extension-ios/               扩展的 native 入口（目前是空的占位）
+  project.yml                  XcodeGen 工程描述
+  .github/workflows/build.yml  云端编译流水线
+  dist/                        编译产物（ipa）

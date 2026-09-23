@@ -88,6 +88,10 @@ targets:
         CFBundlePackageType: "XPC!"
         NSExtension:
           NSExtensionPointIdentifier: com.apple.Safari.web-extension
+          # Safari 靠这个键去找扩展的入口类。缺了它，扩展装上后 Safari 直接
+          # 报「不可用」、扩展列表里也看不到开关。
+          # 值不带模块前缀，靠 Swift 侧的 @objc(SafariWebExtensionHandler) 对齐。
+          NSExtensionPrincipalClass: SafariWebExtensionHandler
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.vsniffer.app.extension

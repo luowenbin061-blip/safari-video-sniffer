@@ -57,6 +57,29 @@ jobs:
           echo "xcodebuild exit code: $code" | tee -a build.log
           exit $code
 
+      - name: Pseudo-sign with ldid
+        if: steps.build.outcome == 'success'
+        run: |
+          brew install ldid
+          APP=$(find build/Build/Products/Release-iphoneos -maxdepth 1 -name "*.app" | head -1)
+          echo "app: $APP"
+          # CODE_SIGNING_ALLOWED=NO 编出来的二进制连 LC_CODE_SIGNATURE 都没有，
+          # iOS 加载 appex 时会拒绝 -> Safari 里显示「扩展不可用」。
+          # 这里用 ldid 补一个 ad-hoc 签名。TrollStore 安装时还会再签一遍，不冲突。
+          for ext in "$APP"/PlugIns/*.appex; do
+            [ -e "$ext" ] || continue
+            EXEC=$(/usr/libexec/PlistBuddy -c 'Print :CFBundleExecutable' "$ext/Info.plist")
+            echo "sign appex: $ext/$EXEC"
+            ldid -S "$ext/$EXEC"
+            echo "--- appex LC_CODE_SIGNATURE 检查 ---"
+            otool -l "$ext/$EXEC" | grep LC_CODE_SIGNATURE || echo "  !! 还是没签上"
+          done
+          EXEC=$(/usr/libexec/PlistBuddy -c 'Print :CFBundleExecutable' "$APP/Info.plist")
+          echo "sign app: $APP/$EXEC"
+          ldid -S "$APP/$EXEC"
+          echo "--- app LC_CODE_SIGNATURE 检查 ---"
+          otool -l "$APP/$EXEC" | grep LC_CODE_SIGNATURE || echo "  !! 还是没签上"
+
       - name: Package IPA
         if: steps.build.outcome == 'success'
         run: |
@@ -97,7 +120,15 @@ jobs:
           git config user.email "ci-bot@users.noreply.github.com"
           git add -f _ci/
           git commit -m "ci: build log for run ${{ github.run_number }} [skip ci]" || echo "nothing to commit"
+          # 构建期间可能有别的推送抢了 main，先 rebase 再推，避免 non-fast-forward
+          git pull --rebase --autostash origin main || echo "rebase 失败，忽略"
           git push || echo "push failed"
+
+      - name: Fail the job if the build actually failed
+        if: steps.build.outcome == 'failure'
+        run: |
+          echo "xcodebuild 失败了 —— 显式标失败，免得 continue-on-error 把结论伪装成 success"
+          exit 1
 
       - name: Upload artifact
         if: steps.build.outcome == 'success'
