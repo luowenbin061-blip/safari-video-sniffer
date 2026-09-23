@@ -1,0 +1,41 @@
+Command line invocation:
+    /Applications/Xcode_15.4.app/Contents/Developer/usr/bin/xcodebuild -project VideoSniffer.xcodeproj -scheme VideoSniffer -sdk iphoneos -configuration Release -derivedDataPath build CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= CODE_SIGN_ENTITLEMENTS= build
+
+User defaults from command line:
+    IDEDerivedDataPathOverride = /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Build settings from command line:
+    CODE_SIGN_ENTITLEMENTS = 
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_ALLOWED = NO
+    CODE_SIGNING_REQUIRED = NO
+    SDKROOT = iphoneos17.5
+
+2026-09-23 03:59:46.336 xcodebuild[4677:15899] Writing error result bundle to /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/ResultBundle_2026-23-09_03-59-0046.xcresult
+xcodebuild: error: Unable to read project 'VideoSniffer.xcodeproj'.
+	Reason: The project ‘VideoSniffer’ cannot be opened because it is in a future Xcode project file format (77). Adjust the project format using a compatible version of Xcode to allow it to be opened by this version of Xcode.
+
+
+
+=== (中间省略) ===
+
+Command line invocation:
+    /Applications/Xcode_15.4.app/Contents/Developer/usr/bin/xcodebuild -project VideoSniffer.xcodeproj -scheme VideoSniffer -sdk iphoneos -configuration Release -derivedDataPath build CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= CODE_SIGN_ENTITLEMENTS= build
+
+User defaults from command line:
+    IDEDerivedDataPathOverride = /Users/runner/work/safari-video-sniffer/safari-video-sniffer/build
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Build settings from command line:
+    CODE_SIGN_ENTITLEMENTS = 
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_ALLOWED = NO
+    CODE_SIGNING_REQUIRED = NO
+    SDKROOT = iphoneos17.5
+
+2026-09-23 03:59:46.336 xcodebuild[4677:15899] Writing error result bundle to /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/ResultBundle_2026-23-09_03-59-0046.xcresult
+xcodebuild: error: Unable to read project 'VideoSniffer.xcodeproj'.
+	Reason: The project ‘VideoSniffer’ cannot be opened because it is in a future Xcode project file format (77). Adjust the project format using a compatible version of Xcode to allow it to be opened by this version of Xcode.
+
+
