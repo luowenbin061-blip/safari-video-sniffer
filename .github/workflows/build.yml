@@ -28,7 +28,14 @@ jobs:
         run: brew install xcodegen || brew upgrade xcodegen
 
       - name: Generate Xcode project
-        run: xcodegen generate
+        run: |
+          set -o pipefail
+          xcodegen generate 2>&1 | tee xcodegen.log
+
+      - name: Inspect project (schemes / targets into the log)
+        continue-on-error: true
+        run: |
+          xcodebuild -project VideoSniffer.xcodeproj -list >> xcodegen.log 2>&1 || true
 
       - name: Build (unsigned)
         id: build
@@ -73,10 +80,17 @@ jobs:
         if: always()
         run: |
           mkdir -p _ci
-          if [ -f build.log ]; then
-            { head -c 120000 build.log; echo; echo "=== (中间省略) ==="; echo; tail -c 120000 build.log; } > _ci/build.log
+          {
+            echo "########## xcodegen.log ##########"
+            cat xcodegen.log 2>/dev/null || echo "(没有 xcodegen.log)"
+            echo
+            echo "########## build.log ##########"
+            cat build.log 2>/dev/null || echo "(没有 build.log)"
+          } > _all.log
+          if [ -s _all.log ]; then
+            { head -c 130000 _all.log; echo; echo "=== (中间省略) ==="; echo; tail -c 130000 _all.log; } > _ci/build.log
           else
-            echo "no build.log generated" > _ci/build.log
+            echo "no logs generated" > _ci/build.log
           fi
           find build/Build/Products -maxdepth 3 -type d > _ci/products.txt 2>/dev/null || echo "no products" > _ci/products.txt
           git config user.name "ci-bot"
