@@ -68,12 +68,17 @@ targets:
     platform: iOS
     sources:
       - path: extension-ios/SafariWebExtensionHandler.swift
-      # manifest.json 必须是扩展 bundle 的「根」，所以单独当文件加进去；
-      # 两个目录用 folder reference（type: folder），这样 bundle 里会保留
-      # content/ 、popup/ 的子目录结构，manifest 里的相对路径才对得上。
+      # manifest.json / background.js 必须落在扩展 bundle 的「根」，所以单独当文件加；
+      # 其余目录用 folder reference（type: folder），这样 bundle 里会保留
+      # content/ 、popup/ 、icons/ 的子目录结构，manifest 里的相对路径才对得上。
       - path: extension/manifest.json
         buildPhase: resources
+      - path: extension/background.js
+        buildPhase: resources
       - path: extension/content
+        type: folder
+        buildPhase: resources
+      - path: extension/icons
         type: folder
         buildPhase: resources
       - path: extension/popup

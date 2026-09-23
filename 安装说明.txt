@@ -2,11 +2,19 @@
   视频嗅探  Safari 扩展 —— 安装说明
 ========================================
 
-版本   v1.0.2
+版本   v1.0.3
 构建   2026-09-23（GitHub Actions / macos-14 / Xcode 15.4）
-文件   dist\VideoSniffer-unsigned.ipa   （44,636 字节）
+文件   dist\VideoSniffer-unsigned.ipa   （47,203 字节，内已带 ldid 签名）
 仓库   https://github.com/luowenbin061-blip/safari-video-sniffer
-发布页 https://github.com/luowenbin061-blip/safari-video-sniffer/releases/tag/v1.0.2
+发布页 https://github.com/luowenbin061-blip/safari-video-sniffer/releases/tag/v1.0.3
+
+★ 装过 v1.0.2 的话，先在桌面长按删掉那个 App，再装这个。
+  覆盖安装有时不会重新注册扩展，容易白测一轮。
+
+v1.0.3 修了什么（v1.0.2 在 Safari 里报「不可用」的两条原因）：
+  · 扩展 Info.plist 漏了 NSExtensionPrincipalClass → Safari 找不到扩展入口类
+  · 两个可执行文件完全没有代码签名（CODE_SIGNING_ALLOWED=NO 导致连签名段
+    都没生成）→ 现在用 ldid 补了 ad-hoc 签名
 
 注意：发布页在 github.com 域名上，你这边网络可能打不开。
       用本地这份 dist\VideoSniffer-unsigned.ipa 就行，内容一模一样。
